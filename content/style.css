@@ -1,0 +1,97 @@
+
+body {
+    background-image: url('../utils/BackgroundImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.custom-nav{
+    background-color: #FFE9BC;
+}
+
+.navbar {
+    padding: 1.5rem; /* Increase overall size */
+}
+
+.navbar-brand {
+    font-size: 2.5rem; /* Bigger text for the brand */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem; /* Smaller text for other links */
+}
+
+.intro-section {
+    padding: 2rem;
+}
+
+.carousel img {
+    height: 500px; /* Adjust image height */
+    object-fit: cover; /* Keep aspect ratio while filling the area */
+}
+
+.modal-content
+{
+    background-color: #FFE9BC;
+}
+
+#calendar {
+    background-color: rgba(255, 255, 255, 0.5);  /* white with 80% opacity */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Change the text color of the calendar events and cells to black */
+.fc-event, .fc-daygrid-day-number, .fc-daygrid-day-top {
+    color: black !important; /* Make sure the text is black */
+}
+
+.fc-col-header {
+    background-color: rgba(240, 240, 240, 0.9); /* Lighter background with transparency */
+}
+
+.fc-daygrid-day.fc-day-selected {
+    background-color: rgba(0, 0, 0, 0.1);  /* Transparent black */
+    color: black; /* Ensure selected date text stays black */
+}
+
+.fc-day-today {
+    background-color: rgba(0, 128, 0, 0.2); /* Light green background for today's date */
+    color: black !important; /* Ensure today's text is black */
+}
+
+/* Center the contact form card vertically and horizontally */
+.contact-form-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Added margin on top */
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.alert {
+    margin-top: 20px;
+}
