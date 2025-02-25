@@ -1,0 +1,29 @@
+{
+  "users":
+          [
+            {
+              "DisplayName" : "admin",
+              "EmailAddress" : "admin@durhamcollege.ca",
+              "UserName": "admin",
+              "Password" : "password"
+            },
+            {
+              "DisplayName": "Jatin Bagga",
+              "EmailAddress": "baggajatin101@gmail.com",
+              "UserName": "jbagga1",
+              "Password": "Ankur@123"
+            },
+            {
+              "DisplayName": "Bob Smith",
+              "EmailAddress": "bob.smith@example.com",
+              "UserName": "bob.s",
+              "Password": "SecurePass456"
+            },
+            {
+              "DisplayName": "Charlie Brown",
+              "EmailAddress": "charlie.brown@example.com",
+              "UserName": "charlie.b",
+              "Password": "Pass789word"
+            }
+          ]
+}

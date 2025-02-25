@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EVENT</title>
+    <link rel="icon" type="image/x-icon" href="../utils/Favicon.svg">
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="../content/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="../node_modules/@fullcalendar/core/index.global.min.js"></script>
+    <script src='../node_modules/@fullcalendar/daygrid/index.global.min.js'></script>
+
+</head>
+<body>
+<main class="container">
+
+    <header>
+
+
+    </header>
+    <!-- Events Section -->
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Upcoming Events</h1>
+
+        <!-- Filter Section -->
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="filterType">Event Type:</label>
+                <select id="filterType" class="form-control">
+                    <option value="">All</option>
+                    <option value="Workshops">Workshops</option>
+                    <option value="Cleanups">Cleanups</option>
+                    <option value="Fundraisers">Fundraisers</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="filterLocation">Location:</label>
+                <input type="text" id="filterLocation" class="form-control" placeholder="Enter location">
+            </div>
+            <div class="col-md-4">
+                <label for="filterDate">Date:</label>
+                <input type="date" id="filterDate" class="form-control">
+            </div>
+        </div>
+
+        <!-- Calendar Layout -->
+        <div id="calendar"></div>
+    </div>
+
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-transparent py-3 mt-4 sticky-bottom">
+        <p>&copy; 2025 Volunteer Connect | <a href="./privacy.html">Privacy Policy</a> | <a href="./terms.html">Terms of Service</a></p>
+    </footer>
+
+</main>
+
+
+<script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="../scripts/main.js"></script>
+<script src="../scripts/namespace.js"></script>
+<script src="../scripts/events.js"></script>
+
+</body>
+</html>

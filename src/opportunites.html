@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VOLUNTEER NOW</title>
+    <link rel="icon" type="image/x-icon" href="../utils/Favicon.svg">
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="../content/style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+
+</head>
+<body>
+<main class="container">
+
+    <header>
+
+    </header>
+
+    <div id="map"></div>
+
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="filterType">Event Type:</label>
+            <select id="filterType" class="form-control">
+                <option value="">All</option>
+                <option value="Workshops">Workshops</option>
+                <option value="Cleanups">Cleanups</option>
+                <option value="Fundraisers">Fundraisers</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="filterLocation">Location:</label>
+            <input type="text" id="filterLocation" class="form-control" placeholder="Enter location">
+        </div>
+        <div class="col-md-4">
+            <label for="filterDate">Date:</label>
+            <input type="date" id="filterDate" class="form-control">
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <div class="container mt-4">
+        <h1 class="text-center">Volunteer Opportunities</h1>
+        <p class="text-center">Join us to make a difference in your community!</p>
+        <div id="opportunities" class="row mt-4">
+            <!-- Opportunities will be dynamically generated here -->
+        </div>
+    </div>
+
+    <!-- Sign-Up Modal -->
+    <div class="modal fade" id="signUpModal" aria-labelledby="signUpModalLabel" >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: #FFF8E1;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signUpModalLabel">Sign Up for Opportunity</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="signUpForm">
+                        <div class="mb-3">
+                            <label for="volunteerName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="volunteerName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="volunteerEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="volunteerEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="preferredRole" class="form-label">Preferred Role</label>
+                            <input type="text" class="form-control" id="preferredRole" required>
+                        </div>
+                        <div class="mb-3">
+                            <p id="message"><small></small></p>
+                        </div>
+                        <button id="submitVolunteerButton" type="button" class="btn btn-primary" style="background-color: #008080; border-color: #008080;">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="closeButton" type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="background-color: #008080; border-color: #008080;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+    <!-- Footer -->
+    <footer class="text-center bg-transparent py-3 mt-4 sticky-bottom">
+        <p>&copy; 2025 Volunteer Connect | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+</main>
+
+
+<script src="../node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="module" src="../scripts/main.js"></script>
+<script src="../scripts/namespace.js"></script>
+<script src="../scripts/events.js"></script>
+</body>
+</html>
