@@ -9,23 +9,22 @@
             },
 
             {
-              "DisplayName" : "Kartik Pandit",
-              "EmailAddress" : "Kartik@durhamcollege.ca",
+              "DisplayName" : "Jatin Bagga",
+              "EmailAddress" : "jatin.bagga@durhamcollege.ca",
               "Username" : "Kpandit",
               "password" : "789456"
             },
 
             {
-              "DisplayName" : "Rena patel",
-              "EmailAddress" : "rena@durhamcollege.ca",
-              "Username" : "rand",
+              "DisplayName" : "admin",
+              "EmailAddress" : "admin@gmail.ca",
+              "Username" : "admin",
               "password" : "password"
             }
 
 
 
           ]
-
 
 
 
