@@ -1,0 +1,33 @@
+{
+  "users" :
+          [
+            {
+              "DisplayName" : "Biblo Baggins",
+              "EmailAddress" : "biblobaggins@durhamcollege.ca",
+              "Username" : "bbaggins",
+              "password" : "123456"
+            },
+
+            {
+              "DisplayName" : "Kartik Pandit",
+              "EmailAddress" : "Kartik@durhamcollege.ca",
+              "Username" : "Kpandit",
+              "password" : "789456"
+            },
+
+            {
+              "DisplayName" : "Rena patel",
+              "EmailAddress" : "rena@durhamcollege.ca",
+              "Username" : "rand",
+              "password" : "password"
+            }
+
+
+
+          ]
+
+
+
+
+
+}
